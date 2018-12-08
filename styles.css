@@ -418,16 +418,15 @@ a:hover {
 
 .meet-staff_container{
     display: grid;
-grid-template-columns: repeat(12, 1fr);
-grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 #meet-staff_photo {
     grid-column-start: 7 ; 
 	grid-column-end: 13 ;
 	grid-row-start: 1;
-	grid-row-end: 4;
+	grid-row-end: 3;
 }
-
 
 #meet-staff_heading{
     font-size: 150px;
@@ -437,3 +436,152 @@ grid-template-rows: repeat(3, 1fr);
     grid-row-end: 2; 
 }
 
+/**SECTION: MINDY**/
+
+.mindy-breen {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#mindy-photo {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 5; 
+}
+
+.prof-inforight{
+    background-color: grey;
+    opacity: 0.8;
+    padding: 25px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 4; 
+    font-family: bodoni;
+}
+
+#mindy-heading {
+    font-size: 50px;
+}
+
+/**SECTION: SONJA**/
+.sonja-durr {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#sonja-photo {
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 5; 
+}
+
+.prof-infoleft{
+    background-color: grey;
+    opacity: 0.8;
+    padding: 25px;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 4; 
+    font-family: bodoni;
+}
+
+#sonja-heading {
+    font-size: 50px;
+}
+
+/**SECTION: GINELLE**/
+.ginelle-hustrulid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-top: 100px;
+}
+
+#ginelle-photo {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 5; 
+}
+
+#ginelle-heading {
+    font-size: 50px;
+}
+
+/**SECTION: TRAVIS**/
+
+.travis-m {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#travis-photo {
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 5; 
+}
+
+#travis-heading {
+    font-size: 50px;
+}
+
+
+/**SECTION: COLIN**/
+.p-colin {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#colin-photo {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 5; 
+}
+
+#colin-heading {
+    font-size: 50px;
+}
+
+/**SECTION: TYRIEL**/
+
+.tyriel-poosri {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#tyriel-photo {
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 5; 
+}
+
+#tyriel-heading {
+    font-size: 50px;
+}
+
+footer {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 30px;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+}
