@@ -1,0 +1,438 @@
+@font-face{
+    font-family: bodoni;
+    src: url(bodoni/BodoniSvtyTwoITCTT-Book.ttf);
+}
+
+.img-responsive {
+        max-width: 100%;
+        height: 100vh;
+}
+
+h1 {
+    color: crimson;
+    font-family: bodoni;
+    font-weight: normal;
+}
+
+.body-paragraphs {
+    font-family: bodoni;
+    font-weight: normal;
+    color: grey;
+}
+
+h2 {
+   color: crimson;
+   font-family: bodoni;
+   font-weight: normal;
+}
+
+nav{
+    width: 50%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Muli', sans-serif;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+#main-nav_links{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+#sub-nav_links{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+/**SECTION: THE PROGRAM**/
+
+.the-program {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+   
+}
+
+#program-picture {
+    grid-column-start: 1 ; 
+	grid-column-end: 7 ;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+#program-content {
+    border-left: 1px solid black;
+    grid-column-start: 6 ; 
+	grid-column-end: 13 ;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+#program-title {
+    font-size: 150px;
+    line-height: 80%;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 50px;
+}
+
+#program-paragraph {
+    font-size: 16px;
+    padding-left: 50px;
+
+}
+
+
+/**SECTION: ABOUT VCD**/
+.about-vcd{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#about-vcd_heading {
+    font-size: 60px;
+    line-height: 90%;
+    margin-top: 0;
+    padding-top: 0;
+
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#para1 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#para2 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+/**SECTION: LIKED SEE**/
+.liked-see_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+#liked-see_photo {
+    grid-column-start: 7 ; 
+	grid-column-end: 13 ;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+#liked-see_heading {
+    font-size: 150px;
+    line-height: 80%;
+    margin-top: 0;
+    padding-top: 0;
+
+    grid-column-end: 8;
+    grid-column-start: 3;
+    grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+#button-apply{
+    color: white;
+    background:grey;
+    font-family: bodoni;
+    height: 25px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+/**SECTION: REQUIRED COURSES**/
+
+.required-course_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 25% 25% 50%;
+    margin-bottom: 100px;
+}
+
+#req-course_heading{
+    font-size: 60px;
+    grid-column-start: 3;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#num-cred{
+    color: red;
+    font-family: 'Muli', sans-serif;
+    font-size: 30px;
+    grid-column-start: 3;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#row1 {
+    font-family: bodoni;
+    font-weight: normal;
+    font-style: italic;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+#row2 {
+    font-family: bodoni;
+    font-weight: normal;
+    font-style: italic;
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+/**SECTION: SUPPORTING COURSES**/
+
+.supporting-courses_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+
+#sup-course_photo{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+#sup-heading{
+    font-size: 60px;
+    padding-left: 50px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#credit-number{
+    color:red;
+    font-family: 'Muli', sans-serif;
+    padding-left: 50px;
+    font-size: 20px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#sup-course {
+    background-color: grey;
+    opacity: 0.8;
+    font-family: bodoni;
+    padding: 25px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+}
+
+
+/**SECTION: ELECTIVE COURSES**/
+.elective-course_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 25% 25% 50%;
+    margin-bottom: 100px;
+}
+
+#ele-course_heading{
+    font-size: 60px;
+    grid-column-start: 3;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/**SECTION: UX CERTIFICATE**/
+.ux_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+
+#ux_photo{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+#ux-heading{
+    font-size: 60px;
+    padding-left: 50px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+#ux-course {
+    background-color: grey;
+    opacity: 0.8;
+    font-family: bodoni;
+    padding: 25px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+}
+
+/**SECTION: BFA PROGRAM**/
+.bfa-program_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+
+#bfa-program_photo {
+    grid-column-start: 7 ; 
+	grid-column-end: 13 ;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+#bfa-program_heading {
+    font-size: 100px;
+    line-height: 80%;
+    margin-top: 0;
+    padding-top: 0;
+
+    grid-column-end: 8;
+    grid-column-start: 3;
+    grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+#paragraph1{
+    font-family: bodoni;
+    font-weight: normal;
+    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+#paragraph2{
+    font-family: bodoni;
+    font-weight: normal;
+    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-row-start: 4;
+	grid-row-end: 5;
+}
+
+#button-applybfa{
+    color: white;
+    background:grey;
+    font-family: bodoni;
+    height: 25px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+
+/**SECTION: BFA REQUIRED**/
+.bfa-req_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 25% 25% 50%;
+    margin-bottom: 100px;
+}
+
+#bfa-req_heading{
+    font-size: 60px;
+    grid-column-start: 3;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#row1bfa {
+    font-family: bodoni;
+    font-weight: normal;
+    font-style: italic;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+#row2bfa {
+    font-family: bodoni;
+    font-weight: normal;
+    font-style: italic;
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+/**SECTION: MEET THE STAFF**/
+
+.meet-staff_container{
+    display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(3, 1fr);
+}
+#meet-staff_photo {
+    grid-column-start: 7 ; 
+	grid-column-end: 13 ;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+
+#meet-staff_heading{
+    font-size: 150px;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+
